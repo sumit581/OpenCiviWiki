@@ -295,3 +295,4 @@ def civi2csv(request, thread_id):
                 data.append(value)
         writer.writerow(data)
     return response
+
